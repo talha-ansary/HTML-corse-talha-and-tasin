@@ -15,11 +15,11 @@ step1! ~~10 mistake you shuold never do!~~
 
 **this is bold text**
 
-* *This text is italicized* *
+*This text is italicized*
 
 ~~This is Strikethrough text
 
-**_ _Bold and nested italic**_ _
+**_ _Bold and nested italic_ _**
 
 ***All bold and italic***
 
