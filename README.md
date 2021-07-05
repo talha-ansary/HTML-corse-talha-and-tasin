@@ -19,7 +19,7 @@ step1! ~~10 mistake you shuold never do!~~
 
 ~~This is Strikethrough text~~
 
-**_ _Bold and nested italic_ _**
+**__Bold and nested italic__**
 
 ***All bold and italic***
 
