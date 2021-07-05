@@ -17,7 +17,7 @@ step1! ~~10 mistake you shuold never do!~~
 
 *This text is italicized*
 
-~~This is Strikethrough text
+~~This is Strikethrough text~~
 
 **_ _Bold and nested italic_ _**
 
