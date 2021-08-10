@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form</title>
+    </head>
+    <script>
+        function test(){
+            alert('hi');
+        }
+    </script>
+    <body>
+        
+        
+        <form>
+            <fieldset>
+                <legend>Gaming Questions</legend>
+                <h1>HTML Form</h1>
+                <!--Text Input-->
+                <label for="name">Name:</label>
+                <input type="text" id="name" ><br> <br>
+
+                <!--Password Input-->
+                <label for="password">Password:</label>
+                <input type="password" id="password"> <br><br>
+
+                <!--Radio Button-->
+                Choose your Favorite Game: <br><br>
+                <input type="radio" id="fortnite" name="gamename">
+                <label for="fortnite">Fortnite</label><br><br>
+                <input type="radio" id="pubg" name="gamename">
+                <label for="pubg">PUBG</label><br><br>
+                <input type="radio" id="freefire" name="gamename">
+                <label for="freefire">Freefire</label><br><br>
+                
+                <!--Checkbox input-->
+                Choose your Favorite Platform: <br><br>
+                <input type="checkbox" id="ps" name="platform">
+                <label for="ps">Play Station</label><br><br>
+                <input type="checkbox" id="xbox" name="platform">
+                <label for="xbox">X Box</label><br><br>
+                <input type="checkbox" id="window" name="platform">
+                <label for="window">Windows</label><br><br>
+
+                <!--Select input-->
+                Country:<br><br>
+                <select id="Country" >
+                    <option value="de">Germany</option>
+                    <option value="qa">Qatar</option>
+                    <option value="bd" selected>Bangladesh</option>
+                </select><br><br>
+                <!--Select input-->
+                Type of Game:<br><br>
+                <select id="gametype" multiple size="2">
+                    <option value="puzzle">Puzzle</option>
+                    <option value="action">Action</option>
+                    <option value="stealth" selected>Stealth</option>
+                </select><br><br>
+
+                <!--Textarea-->
+                Message:<br><br>
+                <textarea rows="10" cols="30">
+
+                </textarea><br><br>
+
+                <input type="submit" value="Submit Form">
+                <button name="button" onclick="test()">Test Button</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
